@@ -8,8 +8,8 @@ def fibs_arr(number) # Returns the sequence
   result = [0]
   x, y = 1, 1
   number.times do
-  	result << x
-  	x, y = y, (x + y)
+    result << x
+    x, y = y, (x + y)
   end
   result
 end
